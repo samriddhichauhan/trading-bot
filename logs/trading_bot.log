@@ -1,0 +1,11 @@
+2026-05-01 21:50:22,373 - INFO - Request -> BTCUSDT BUY MARKET Qty:0.01 Price:None
+2026-05-01 21:50:23,374 - INFO - Mock Response -> {'orderId': 846534, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 63155.04}
+2026-05-01 21:50:28,919 - INFO - Request -> BTCUSDT SELL LIMIT Qty:0.01 Price:60000.0
+2026-05-01 21:50:29,920 - INFO - Mock Response -> {'orderId': 113430, 'status': 'NEW', 'executedQty': 0, 'avgPrice': 60000.0}
+2026-05-01 21:59:32,211 | INFO | [9c473054] START Order
+2026-05-01 21:59:32,211 | INFO | [9c473054] Input -> symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.01, price=None
+2026-05-01 21:59:32,212 | INFO | [9c473054] Mode -> MOCK
+2026-05-01 21:59:33,213 | INFO | [9c473054] Response -> {'orderId': 661801, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 52815.37}
+2026-05-01 21:59:33,213 | INFO | [9c473054] Execution Time -> 1.002s
+2026-05-01 21:59:33,213 | INFO | [9c473054] END Order
+
