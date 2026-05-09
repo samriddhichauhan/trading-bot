@@ -51,7 +51,8 @@ def train_model():
     )
 
     # Train model
-    model.fit(X_train, y_train)
+    X_train = X_train.fillna(0)
+    X_test = X_test.fillna(0)
 
     # Predictions
     predictions = model.predict(X_test)
